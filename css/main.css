@@ -1,0 +1,70 @@
+/*
+color fondo = #22577A
+color primario =#38A3A5
+color secundario =#57CC99
+color terciario =#80ED99
+*/
+html{
+    font-family: 'Gluten', cursive;
+    color:#fff;
+}
+body{
+    background-color:#22577A;
+    min-width: 250px;
+}
+
+h1,h2,h3,p{
+    text-align:center;
+}
+
+.contenido{
+    background-color: #38A3A5;
+    display:grid; 
+    gap: 15px;
+    grid-auto-rows: auto;   
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    justify-content:center;  
+    border-radius:5px;
+    padding:10px;
+
+
+}
+.controles{
+    text-align:center;
+    padding:15px;
+}
+
+.personaje{
+    background-color:#57CC99;
+    padding:10px;
+    border-radius:5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    width:90%;
+}
+
+.informacion{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top:15px;    
+}
+
+img{
+    width:100%;
+    margin:auto;
+    border-radius: 5px;
+    border:1px solid rgba(0,0,0,0.2);    
+}
+
+button{
+    border-style: none;
+    padding:15px;
+    margin: 0 auto;    
+    border-radius:5px;
+    font-family: 'Gluten', cursive;
+    cursor:pointer;    
+}
+
+button:hover{
+    background-color:gray;    
+}
+
