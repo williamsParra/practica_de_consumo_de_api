@@ -67,12 +67,21 @@ button:hover{
     background-color:gray;    
 }
 
+input[type=text]{
+    padding:15px;
+    border-radius:5px;
+    border-style: none;
+    font-family: 'Gluten', cursive;
+    color:black;
+
+}
+
 .dead{
     color:darkred;    
 }
 
 .alive{
-    color:#39862f;
+    color:#4d8645;
 }
 
 .unknown{
